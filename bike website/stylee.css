@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #323232;
+  color: white;
+}
+#logo{
+  float: left;
+  padding-top: 30px;
+}
+.map{
+  float: left;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  bottom: 50%;
+  right: 0%;
+}
+#main{
+  float: right;
+  position: absolute;
+  top: 28%;
+  right: 13%;
+}
+.nav li{
+  display: flex;
+  float: right;
+  position: relative;
+  transition: 0.25s;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  list-style: none;
+  text-decoration: none;
+
+}
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+.nav li a:hover{
+  color: red;
+}
+.names{
+  padding-left: px;
+}
+.inputs{
+  padding: 8px;
+  margin-left: 90px;
+}
+#input{
+  padding: 100px;
+  margin-left: 50px;
+}
+#text{
+  font-size: 2em;
+}
+.select{
+  padding: 20px;
+  font-size: 1.5em;
+  background-color: #4d5061;
+  margin-left: 130px;
+}
+.btn1{
+   display: inline-block;
+   background-color: #FFE53B;
+   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+   color:  white;
+   text-decoration: none;
+   padding: 16px 36px;
+   margin-top: 5px;
+   border-radius: 50px;
+   font-size: 1,25em;
+   transition: 0.25s;
+}
+.btn2{
+   display: inline-block;
+   background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+   color:  white;
+   margin-left: 15px;
+   text-decoration: none;
+   padding: 16px 36px;
+   margin-top: 5px;
+   border-radius: 50px;
+   font-size: 1,25em;
+   transition: 0.25s;
+}
+.btn2:hover{
+  letter-spacing: 4px;
+}
+.btn1:hover{
+  letter-spacing: 4px;
+}
